@@ -1,8 +1,8 @@
-# <a href="https://88plug.com">88plug</a> doctl command line interface for the DigitalOcean API.
+# 88plug doctl command line interface for the DigitalOcean API.
 Dockerfile for running doctl command line interface for the DigitalOcean API.
 
 # Easy Way
-docker run -ti --rm -e DIGITALOCEAN_ACCESS_TOKEN="your_DO_token" 88plug/doctl doctl any_doctl_command
+docker run -t -e DIGITALOCEAN_ACCESS_TOKEN="your_DO_token" 88plug/doctl compute droplet list
 
 # doctl [![Build Status](https://travis-ci.org/digitalocean/doctl.svg?branch=master)](https://travis-ci.org/digitalocean/doctl) [![GoDoc](https://godoc.org/github.com/digitalocean/doctl?status.svg)](https://godoc.org/github.com/digitalocean/doctl) [![Go Report Card](https://goreportcard.com/badge/github.com/digitalocean/doctl)](https://goreportcard.com/report/github.com/digitalocean/doctl)
 
